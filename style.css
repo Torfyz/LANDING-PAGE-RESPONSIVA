@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+}
+body{
+font-size: 100%;
+background: linear-gradient(68.15deg,#23242f 16.62%, #528e84 85.61%);
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.img-cabeca{
+    height: 72px;
+    width: 72px;
+}
+.navegacao{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 400;
+    font-size: 18px;
+}
+.menu{
+    border-top: 0.4px solid #effff6;
+    margin-bottom: 48px;
+}
+.s-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.div-s-1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.p-deck{
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    font-style: normal;
+    color: #effff6;
+}
+.d-deck{
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 400;
+    font-size: 24px;
+}
+.botao{
+    background-color: rgb(114, 255, 255);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: "Sarala", sans-serif;
+    color: #232f2f;
+    font-weight: 400;
+    font-size: 24px;
+}
+.botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.img-deck-1{
+    height: 430px;
+    padding: 60px;
+}
+.s-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.T-s-2{
+    border-top: 0.4px solid #effff6;
+    padding-top: 48px;
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.p{
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.r-pe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    border-top: 0.4px solid #effff6;
+}
+.img-rpe{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.jorge{
+    display: block;
+    margin: 0 auto;
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+@media (max-width: 580px){
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #23242f 16.62%, #528e84 85.61%);
+}
+
+.cabeca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.img-cabeca {
+    height: 72px;
+    width: 72px;
+}
+
+.navegacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.menu-item {
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.menu {
+    border-top: 0.4px solid #effff6;
+    margin-bottom: 24px;
+    padding-top: 8px;
+}
+
+.s-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.div-s-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.p-deck {
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    color: #effff6;
+    text-align: center;
+}
+
+.d-deck {
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.botao {
+    background-color: rgb(114, 255, 255);
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: "Sarala", sans-serif;
+    color: #232f2f;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.img-deck-1 {
+    height: auto;
+    max-width: 100%;
+    padding: 24px;
+}
+
+.s-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.T-s-2 {
+    border-top: 0.4px solid #effff6;
+    padding-top: 24px;
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.p {
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.r-pe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    border-top: 0.4px solid #effff6;
+}
+
+.img-rpe {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.jorge {
+    font-family: "Sarala", sans-serif;
+    color: #effff6;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+}
