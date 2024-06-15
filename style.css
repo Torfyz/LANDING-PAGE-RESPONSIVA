@@ -150,13 +150,14 @@ body {
 .img-cabeca {
     height: 72px;
     width: 72px;
+    margin-bottom: 5px;
 }
 
 .navegacao {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 6px;
 }
 
 .menu-item {
@@ -165,6 +166,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 8px;
+    padding: 3px;
+    background-color: rgba(96, 255, 255, 0.384);
+    border-radius: 10px;
 }
 
 .menu {
@@ -251,6 +255,7 @@ body {
     color: #effff6;
     font-weight: 300;
     font-size: 16px;
+    margin: 5px;
     margin-bottom: 8px;
     text-align: center;
 }
